@@ -7,6 +7,6 @@
 
 abstract class AbstractDecorator implements AbstractComponent
 {
-    public function initCategory() {}
+    private function initCategory() {}
     public function addCategory(array &$dishes, Closure $next) {}
 }

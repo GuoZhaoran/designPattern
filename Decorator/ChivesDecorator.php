@@ -7,7 +7,7 @@
 
 class ChivesDecorator extends AbstractDecorator
 {
-    public function initCategory()
+    private function initCategory()
     {
         return ['回锅肉', '牛排', '羊排'];
     }

@@ -48,8 +48,7 @@ function combinationFunc()
 $dishes = [];
 $baseCategory = (new ConcreteComponent())->addCategory($dishes, $output);
 
-print '加荤菜后的套餐组合<br/>';
-//添加饮料后的套餐
+print '加荤菜和饮料后的套餐组合<br/>';
 $addCategoryDecorators = [new DrinkDecorator(), new ChivesDecorator()];
 $go = array_reduce(array_reverse($addCategoryDecorators), combinationFunc(), $baseCategory);
 

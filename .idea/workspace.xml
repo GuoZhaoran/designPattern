@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9baf175-9122-4d1a-8356-82b3f16d319c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Factory/concreteRecommandClassV1women.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Factory/concreteRecommendClassV1man.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Factory/concreteRecommendClassV2women.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Iterator/generator_limit_memery.php" />
+      <change beforePath="$PROJECT_DIR$/Decorator/AbstractDecorator.php" afterPath="$PROJECT_DIR$/Decorator/AbstractDecorator.php" />
+      <change beforePath="$PROJECT_DIR$/Decorator/ChivesDecorator.php" afterPath="$PROJECT_DIR$/Decorator/ChivesDecorator.php" />
+      <change beforePath="$PROJECT_DIR$/Decorator/DrinkDecorator.php" afterPath="$PROJECT_DIR$/Decorator/DrinkDecorator.php" />
       <change beforePath="$PROJECT_DIR$/Decorator/index.php" afterPath="$PROJECT_DIR$/Decorator/index.php" />
-      <change beforePath="$PROJECT_DIR$/Factory/concreteRecommendClassV1.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Factory/concreteRecommendClassV2.php" afterPath="$PROJECT_DIR$/Factory/concreteRecommendClassV2man.php" />
-      <change beforePath="$PROJECT_DIR$/Factory/concreteRecommendFactoryV1.php" afterPath="$PROJECT_DIR$/Factory/concreteRecommendFactoryV1.php" />
-      <change beforePath="$PROJECT_DIR$/Factory/concreteRecommendFactoryV2.php" afterPath="$PROJECT_DIR$/Factory/concreteRecommendFactoryV2.php" />
-      <change beforePath="$PROJECT_DIR$/Factory/index.php" afterPath="$PROJECT_DIR$/Factory/index.php" />
-      <change beforePath="$PROJECT_DIR$/Factory/recommendFactory.php" afterPath="$PROJECT_DIR$/Factory/recommendFactory.php" />
-      <change beforePath="$PROJECT_DIR$/Iterator/generator.php" afterPath="$PROJECT_DIR$/Iterator/generator_read_file.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +44,8 @@
         <option value="$PROJECT_DIR$/Factory/recommendFactory.php" />
         <option value="$PROJECT_DIR$/Factory/concreteRecommendFactoryV1.php" />
         <option value="$PROJECT_DIR$/Factory/index.php" />
-        <option value="$PROJECT_DIR$/Decorator/index.php" />
         <option value="$PROJECT_DIR$/Iterator/generator_limit_memery.php" />
+        <option value="$PROJECT_DIR$/Decorator/index.php" />
       </list>
     </option>
   </component>
@@ -179,6 +171,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21647818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

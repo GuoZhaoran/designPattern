@@ -5,9 +5,9 @@
  * Date: 2019-10-20
  */
 
-class DrinkDecorator
+class DrinkDecorator  extends AbstractDecorator
 {
-    public function initCategory()
+    private function initCategory()
     {
         return ['雪碧', '可乐', '酸梅汤'];
     }
