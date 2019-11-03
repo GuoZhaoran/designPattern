@@ -13,7 +13,7 @@ include __DIR__.'/ConcreteComponent.php';
 include __DIR__.'/DrinkDecorator.php';
 include __DIR__.'/ChivesDecorator.php';
 
-//将用户选好的套餐格式化输出
+//将用户选好的套餐排列组合
 $output = function ($dishes) {
     $items = [];
     $init = array_shift($dishes);
@@ -35,7 +35,7 @@ $output = function ($dishes) {
     return $items;
 };
 
-//组合函数,将装饰器一层层调用,组合成最终的菜品
+//组合函数,将装饰器函数一层层包装
 function combinationFunc()
 {
     return function($stack, $decorators){

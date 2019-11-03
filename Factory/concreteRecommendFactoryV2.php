@@ -7,7 +7,12 @@
 
 class concreteRecommendFactoryV2 extends recommendFactory
 {
-    public function createRecommendClass():concreteRecommendClassV2 {
-        return new concreteRecommendClassV2();
+    public function createRecommendClass($sex) {
+        switch ($sex) {
+            case 'man':
+                return new concreteRecommendClassV2man();
+            case 'women':
+                return new concreteRecommendClassV2women();
+        }
     }
 }

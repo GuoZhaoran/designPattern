@@ -30,3 +30,5 @@ foreach (readTxt() as $key => $value) {
 $useMemory = memory_get_usage() - $startMemory;
 echo '一共占用了',$useMemory,'字节内存';
 
+
+

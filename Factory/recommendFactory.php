@@ -7,5 +7,5 @@
 
 abstract class recommendFactory
 {
-    public function createRecommendClass() {}
+    public function createRecommendClass($sex) {}
 }
